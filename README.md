@@ -1,7 +1,7 @@
 # Club SemRust - Sistema de Registro de Pagos y Gestión de Actividades en Blockchain
 
 ## Descripción
-Este proyecto implementa un sistema en blockchain para el registro de pagos de cuotas mensuales y la gestión de actividades deportivas para los socios del Club SemRust. El club cuenta con tres categorías de socios (A, B y C) y ofrece diversas actividades deportivas.
+Este proyecto implementa un sistema en blockchain para el registro de pagos de cuotas mensuales y la gestión de actividades deportivas para los socios del Club SemRust. Lo hace mediante dos SmartContracts, uno principal para la funcionalidad del club y otro que genera reportes a traves de la infomracion del primero
 
 ## Funcionalidades
 1. **Registro de un nuevo socio:**
@@ -34,10 +34,6 @@ Este proyecto implementa un sistema en blockchain para el registro de pagos de c
 - Se puede activar o desactivar la política de autorización.
 - El dueño del contrato puede delegar el poder a otra dirección.
 
-## Entregable
-- Proyecto completo con los 2 contratos deployados en una testnet y con la política de direcciones desactivada.
-- Fecha límite de entrega: 12/7.
-
 ## Testing y Documentación
-- Realizar testing sobre todas las funcionalidades (coverage mínimo del 85%).
-- Documentar todos los structs y métodos.
+- Testing realizado sobre todas las funcionalidades (coverage 85%).
+- Documentantacion de todos los structs y métodos.
